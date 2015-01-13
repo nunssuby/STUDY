@@ -14,6 +14,10 @@ public class AnagramTest {
 		String str2="bca";
 		//assertThat(anagram.checkAnagram(str1, str2), is(true));
 		assertThat(anagram.checkAnagram(str1, str2), is(true));
+		
+		str1="aabc";
+		str2="baca";
+		assertThat(anagram.checkAnagram(str1, str2), is(true));
 	}
 
 }
