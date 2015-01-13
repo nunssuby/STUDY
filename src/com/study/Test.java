@@ -21,10 +21,10 @@ public class Test {
 		
 //		System.out.print(node.data);
 		
-		//char a ='ÇÑ';
+		//char a ='í•œ';
 		//System.out.print(a);
 		
-		String str ="ÇÑ¼ºÀÌ´ÂÇÑ¼ºÇÑ¼º´ÂÀÌ´ÂÀÌ¾Æ";
+		String str ="í•œì„±ì´ëŠ”í•œì„±í•œì„±ëŠ”ì´ëŠ”ì´ì•„";
 		
 		Map<String, Integer> data = new HashMap<String, Integer>();
 		
@@ -44,10 +44,10 @@ public class Test {
 		}
 		
 		Iterator iterator = data.keySet().iterator();
-		// ¹İº¹ÀÚ¸¦ ÀÌ¿ëÇØ¼­ Ãâ·Â
+		// ë°˜ë³µìë¥¼ ì´ìš©í•´ì„œ ì¶œë ¥
 		while (iterator.hasNext()) { 
-			String key = (String)iterator.next(); // Å° ¾ò±â
-			System.out.println("key="+key+" / value="+data.get(key));  // Ãâ·Â
+			String key = (String)iterator.next(); // í‚¤ ì–»ê¸°
+			System.out.println("key="+key+" / value="+data.get(key));  // ì¶œë ¥
 		}
 		
 		/*
