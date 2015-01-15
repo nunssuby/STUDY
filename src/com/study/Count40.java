@@ -74,8 +74,10 @@ public class Count40 {
 			
 			while (in.hasNext()){
 				int x = in.nextInt();
-				if(x>=min && x<=max)
+				if(x>=min && x<=max){
+					System.out.println("x : "+x);
 					check[x-min] = true;
+				}
 			}
 			
 //			꼼꼼한 테스트할 방법을 생각해야함.
@@ -86,15 +88,12 @@ public class Count40 {
 //					return i+min;
 //			}
 			
-			
-			for (int i=0; i<check.length;i++){
-				if(check[i]){
-					min = i+min;
+			int index=0;
+			for (index=0; index<check.length;index++){
+				if(check[index])
 					break;
-				}
 			}
-			
-			for (int i=min;i<check.length;i++){
+			for (int i=index;i<check.length;i++){
 				if(!check[i])
 					return i+min;
 			}
