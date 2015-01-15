@@ -13,10 +13,10 @@ public class MinCountTest {
 	public void CheckMinStrtest() {
 		//fail("Not yet implemented"); // TODO
 		
-		String str = "Å½¾ØÅ½";
+		String str = "íƒì•¤íƒ";
 		
-		assertThat(minCount.checkMinStr(str), is("¾Ø"));
-		str = "Q. 40¾ï°³ÀÇ Á¤¼ö°¡ ÇÏ³ªÀÇ ÆÄÀÏ¿¡ µé¾îÀÖ´Ù°í °¡Á¤ÇÏ°í, ¼ıÀÚ´Â ·£´ıÇÏ°Ô 40¾ï°³°¡ µé¾îÀÖ´Ù. ÆÄÀÏ¾È¿¡ Æ÷ÇÔµÇ¾î ÀÖÁö ¾ÊÀº ¼ıÀÚ ÇÏ³ª¸¦ Ã£´Â ¾Ë°í¸®ÁòÀº ¾î¶»°Ô ±¸ÇÏ³ª¿ä?";
+		assertThat(minCount.checkMinStr(str), is("ì•¤"));
+		str = "Q. 40ì–µê°œì˜ ì •ìˆ˜ê°€ í•˜ë‚˜ì˜ íŒŒì¼ì— ë“¤ì–´ìˆë‹¤ê³  ê°€ì •í•˜ê³ , ìˆ«ìëŠ” ëœë¤í•˜ê²Œ 40ì–µê°œê°€ ë“¤ì–´ìˆë‹¤. íŒŒì¼ì•ˆì— í¬í•¨ë˜ì–´ ìˆì§€ ì•Šì€ ìˆ«ì í•˜ë‚˜ë¥¼ ì°¾ëŠ” ì•Œê³ ë¦¬ì¦˜ì€ ì–´ë–»ê²Œ êµ¬í•˜ë‚˜ìš”?";
 		assertThat(minCount.checkMinStr(str), is("Q"));
 	}
 

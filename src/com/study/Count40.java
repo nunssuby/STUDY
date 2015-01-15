@@ -80,9 +80,9 @@ public class Count40 {
 				}
 			}
 			
-//			²Ä²ÄÇÑ Å×½ºÆ®ÇÒ ¹æ¹ýÀ» »ý°¢ÇØ¾ßÇÔ.
-//			test case¸¦ ¸¸µé¸é¼­ µ¹·ÁºÁ¾ßÇÏ³ª? 
-//		    ¿©Æ° ¸ÓÀú¸® 2ÅºÀÓ
+//			ê¼¼ê¼¼í•œ í…ŒìŠ¤íŠ¸í•  ë°©ë²•ì„ ìƒê°í•´ì•¼í•¨.
+//			test caseë¥¼ ë§Œë“¤ë©´ì„œ ëŒë ¤ë´ì•¼í•˜ë‚˜? 
+//		    ì—¬íŠ¼ ë¨¸ì €ë¦¬ 2íƒ„ìž„
 //			for (int i=0; i<check.length;i++){
 //				if(!check[i])
 //					return i+min;
