@@ -12,7 +12,7 @@ public class Count40Test {
 	@Test
 	public void testNoFileNum() {
 		try {
-			assertThat(count40.noFileNum(), is(0));
+			assertThat(count40.noFileNum(), is(570));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
