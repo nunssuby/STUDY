@@ -78,7 +78,23 @@ public class Count40 {
 					check[x-min] = true;
 			}
 			
+//			꼼꼼한 테스트할 방법을 생각해야함.
+//			test case를 만들면서 돌려봐야하나? 
+//		    여튼 머저리 2탄임
+//			for (int i=0; i<check.length;i++){
+//				if(!check[i])
+//					return i+min;
+//			}
+			
+			
 			for (int i=0; i<check.length;i++){
+				if(check[i]){
+					min = i+min;
+					break;
+				}
+			}
+			
+			for (int i=min;i<check.length;i++){
 				if(!check[i])
 					return i+min;
 			}
