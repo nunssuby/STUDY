@@ -25,6 +25,7 @@ public class Maze {
 						{0,0,0,0,0,0,0}
 					};
 	boolean[][] visit = new boolean[7][7];
+	
 	public Stack<MazeNode> searchPathByLoof(){
 		Stack<MazeNode> stack = new Stack<MazeNode>();
 		MazeNode mazeNode = new MazeNode(1,1);
@@ -111,6 +112,12 @@ public class Maze {
 		//System.out.println(stack.peek().x);
 		
 		//System.out.println(maze.path[5][2]);
+		  String str3 = new String("test");
+	    String str1 = "test";
+	    String str2 = "test";
+	    
+	      System.out.print("H" + "a");
+	      System.out.print('H' + 'a');
 	}
 	
 }

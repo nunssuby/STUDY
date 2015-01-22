@@ -69,9 +69,6 @@ public class Count40 {
 			int min = (pivot>100)? pivot-100:0;
 			int max = pivot+99;
 			
-			System.out.println("min : "+min);
-			System.out.println("max : "+max);
-			
 			while (in.hasNext()){
 				int x = in.nextInt();
 				if(x>=min && x<=max){
