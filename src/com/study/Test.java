@@ -1,11 +1,5 @@
 package com.study;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
 import java.util.*;
 
 public class Test {
@@ -58,6 +52,16 @@ public class Test {
 		
 		List<Map<String, Integer>> list = new ArrayList<Map<String, Integer>>();
 			
+		ArrayList<String> test = new ArrayList<String>();
+		test.add("호호");
+		test.add(0, "하하");
+		test.add(0, "호호");
+		test.add(0, "하하");
+		
+		test.
+		
+		
+		System.out.println("test : "+ test);
 		
 	}
 	/*
