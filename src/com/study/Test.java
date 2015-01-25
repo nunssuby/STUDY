@@ -58,10 +58,10 @@ public class Test {
 		test.add(0, "호호");
 		test.add(0, "하하");
 		
-		test.
 		
 		
-		System.out.println("test : "+ test);
+		
+//		System.out.println("test : "+ test);
 		
 	}
 	/*

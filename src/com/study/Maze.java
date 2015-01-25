@@ -25,7 +25,6 @@ public class Maze {
 						{0,0,0,0,0,0,0}
 					};
 	boolean[][] visit = new boolean[7][7];
-	
 	public Stack<MazeNode> searchPathByLoof(){
 		Stack<MazeNode> stack = new Stack<MazeNode>();
 		MazeNode mazeNode = new MazeNode(1,1);
@@ -65,6 +64,7 @@ public class Maze {
 	
 	public Stack<MazeNode> searchPathByRecursive(Stack<MazeNode> stack){
 		MazeNode node = stack.peek();
+		java.util.ArrayList<Object> al;
 		if(node.x==5 && node.y==5)
 			return stack;
 		//System.out.println("x,y : "+ node.x + node.y);
@@ -112,12 +112,6 @@ public class Maze {
 		//System.out.println(stack.peek().x);
 		
 		//System.out.println(maze.path[5][2]);
-		  String str3 = new String("test");
-	    String str1 = "test";
-	    String str2 = "test";
-	    
-	      System.out.print("H" + "a");
-	      System.out.print('H' + 'a');
 	}
 	
 }
