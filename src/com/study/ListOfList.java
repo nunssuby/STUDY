@@ -31,16 +31,17 @@ public class ListOfList {
 	
 	public static List sortList(List l, TreeSet<Integer> tSet){
 		if(tSet == null)
-			tSet = new TreeSet();
+			tSet = new TreeSet<Integer>();
 		
 		for (int i=0; i<l.size();i++){
 			if(l.get(i) instanceof List){
 				sortList((List)l.get(i),tSet);
 			} else {
 				tSet.add(Integer.parseInt(l.get(i).toString()));
+				
 			}
 		}
-		
+		Object[] test = tSet.toArray();
 		return new ArrayList<Integer>(tSet);
 	}
 	
