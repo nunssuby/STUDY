@@ -31,14 +31,15 @@ public class MinCountTest {
 		map.put("세계를", 2);
 		map.put("위하여", 3);
 		map.put("달리자", 15);
-		assertThat(minCount.getSortedString(map).size(), is(4));
-		System.out.println(minCount.getSortedString(map));
+//		assertThat(minCount.getSortedString(map).size(), is(4));
+//		System.out.println(minCount.getSortedString(map));
 	}
 	
 	@Test
 	public void getStringByDESC(){
 		String[] str = {"새로운","세계를","위하여","달리자","달리자","달리자","달리자","새로운"};
 		System.out.println(minCount.getStringByDESC(str));
+//		System.out.println(minCount.getCountedString(str));
 		assertThat(minCount.getStringByDESC(str).size(), is(4));
 	}
 

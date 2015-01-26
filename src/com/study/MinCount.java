@@ -59,7 +59,7 @@ public class MinCount {
 	}
 
 	
-	public Map<String,Integer> getCountedString(String[] str){
+	private Map<String,Integer> getCountedString(String[] str){
 		Map<String,Integer> resultMap = new HashMap(); 
 				
 		for (String s : str){
@@ -71,7 +71,7 @@ public class MinCount {
 		return resultMap;
 	}
 	
-	public List getSortedString(final Map<String,Integer> m){
+	private List getSortedString(final Map<String,Integer> m){
 		List<String> list = new ArrayList<String>(m.size());
 		list.addAll(m.keySet());
 		
