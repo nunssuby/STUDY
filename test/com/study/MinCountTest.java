@@ -42,5 +42,12 @@ public class MinCountTest {
 //		System.out.println(minCount.getCountedString(str));
 		assertThat(minCount.getStringByDESC(str).size(), is(4));
 	}
+	
+	@Test
+	public void printSortedNCount(){
+		String[] str = {"새로운","세계를","위하여","달리자","달리자","달리자","달리자","새로운"};
+		int n = 3;
+		minCount.printSortedNCount(str, n);
+	}
 
 }
