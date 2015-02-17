@@ -6,7 +6,6 @@ import static org.hamcrest.CoreMatchers.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.study.Comparator;
 
 class CoffeeMakerStub implements CoffeeMakerAPI{
 	public boolean buttonPressed;
