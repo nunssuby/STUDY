@@ -51,7 +51,7 @@ public class VendingMachineTest {
 	}
 
 	@Test
-	public void testDisPlayChange() {
+	public void testDisplayChange() {
 		fail("Not yet implemented"); // TODO
 	}
 

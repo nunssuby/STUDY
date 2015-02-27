@@ -40,10 +40,6 @@ public class VendingMachine {
 		this.change -= slot[0].getPrice();
 	}
 	
-	public void disPlayChange(){
-		
-	}
-	
 	public int giveChange(){
 		
 		return 0;
